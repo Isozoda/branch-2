@@ -7,6 +7,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-green-500: oklch(72.3% 0.219 149.579);
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-white: #fff;
@@ -179,6 +180,9 @@
   .m-auto {
     margin: auto;
   }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
@@ -212,6 +216,15 @@
   .mt-\[150px\] {
     margin-top: 150px;
   }
+  .mb-1 {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -241,6 +254,9 @@
   }
   .mb-\[20\] {
     margin-bottom: 20;
+  }
+  .mb-\[50px\] {
+    margin-bottom: 50px;
   }
   .mb-\[52px\] {
     margin-bottom: 52px;
@@ -284,6 +300,9 @@
   .w-\[14px\] {
     width: 14px;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[90\$\] {
     width: 90$;
   }
@@ -304,6 +323,12 @@
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
   .items-center {
     align-items: center;
@@ -379,6 +404,9 @@
   .bg-\[\#E7E5FF\] {
     background-color: #E7E5FF;
   }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
+  }
   .bg-gradient-to-r {
     --tw-gradient-position: to right in oklab;
     background-image: linear-gradient(var(--tw-gradient-stops));
@@ -446,6 +474,15 @@
   .pr-35 {
     padding-right: calc(var(--spacing) * 35);
   }
+  .pl-5 {
+    padding-left: calc(var(--spacing) * 5);
+  }
+  .pl-6 {
+    padding-left: calc(var(--spacing) * 6);
+  }
+  .pl-7 {
+    padding-left: calc(var(--spacing) * 7);
+  }
   .pl-\[50px\] {
     padding-left: 50px;
   }
@@ -463,6 +500,9 @@
   }
   .pl-\[750px\] {
     padding-left: 750px;
+  }
+  .text-center {
+    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
