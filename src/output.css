@@ -183,6 +183,15 @@
   .mt-30 {
     margin-top: calc(var(--spacing) * 30);
   }
+  .mt-60 {
+    margin-top: calc(var(--spacing) * 60);
+  }
+  .mt-100 {
+    margin-top: calc(var(--spacing) * 100);
+  }
+  .mt-150 {
+    margin-top: calc(var(--spacing) * 150);
+  }
   .mt-\[100px\] {
     margin-top: 100px;
   }
@@ -455,6 +464,9 @@
   }
   .text-\[34px\] {
     font-size: 34px;
+  }
+  .text-\[44px\] {
+    font-size: 44px;
   }
   .text-\[70px\] {
     font-size: 70px;
