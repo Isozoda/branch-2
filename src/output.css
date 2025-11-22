@@ -267,6 +267,15 @@
   .mb-\[150px\] {
     margin-bottom: 150px;
   }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
+  }
+  .ml-15 {
+    margin-left: calc(var(--spacing) * 15);
+  }
   .ml-\[70px\] {
     margin-left: 70px;
   }
@@ -440,6 +449,9 @@
   }
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
   .py-\[30px\] {
     padding-block: 30px;
