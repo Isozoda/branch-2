@@ -11,3 +11,9 @@
     height: 842px;
     background-repeat: no-repeat;
 }
+.background3 {
+    background-image: url(../image/Frame\ -\ 2025-11-22T190929.317.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
