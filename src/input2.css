@@ -17,3 +17,9 @@
     background-repeat: no-repeat;
     height: 600px;
 }
+
+@media (max-width: 500px) {
+    .background3 {
+        display: none;
+    }
+}
